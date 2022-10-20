@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    background-color:black;
+overflow-x: hidden;
+}
+nav .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  25px auto ;
+}
+ul{
+    list-style: none;
+}
+nav .container .links{
+    display: flex;
+   
+}
+nav .container .links li a{
+    margin-right:30px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav .container .logo img{
+    width: 45px;
+}
+section{
+    height: 100vh;
+}
+section .contain{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height:500px;
+    margin: auto;
+    
+}
+section .contain .text{
+    width: 40%;
+    
+    height: 100%;
+    position: relative;
+    
+   
+    
+}
+section .contain .text .text-content{
+   
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+
+   
+}
+section .contain .text .text-content h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+section .contain .text .text-content p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+section .contain .text .text-content button{
+    color:black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color:#fff;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+
+
+
+}
+section .contain .phone{
+    width:40%;
+    position: relative;
+   
+   
+    
+}
+section .contain img{
+    max-width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+    
+}
+.phones{
+ 
+   
+    margin-top: 45px;
+}
+ .phones ul{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     
+    
+}
+.phones ul li img{
+    max-width: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    
+}
+.phones ul li img:hover{
+    transform: scale(1.2);
+    
+}
+@media (max-width:768px) {
+   .contain{
+    max-width: 80%;
+    margin: auto;
+   }
+   nav .container{
+    flex-direction: column;
+   }
+   nav .container .links{
+    margin-top: 10px;
+   
+   }
+   nav .container .links  li a{
+    margin-right: 15px;
+    font-size: 16px;
+   }
+
+   section .contain .text .text-content{
+    top: 20%;
+   }
+   section .contain .text .text-content h1{
+    font-size: 30px;
+   }
+   section .contain .text .text-content p{
+    font-size: 16px;
+   }
+   .contain .phone img{
+   
+    width:150px;
+    margin-top: 100px;
+    
+    
+   }}
